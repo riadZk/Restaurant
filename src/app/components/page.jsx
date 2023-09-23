@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Link from 'next/link'
-import '../globals.css'
+import './Navbar.module.css'
 import { Inter ,Shalimar} from 'next/font/google'
 const fonts = Inter({ subsets: ['latin'],weight:"400" })
 const font = Shalimar({ subsets: ['latin'],weight:"400" })
