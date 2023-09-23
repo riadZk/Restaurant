@@ -1,0 +1,7 @@
+.navbar {
+    background-color: transparent;
+  }
+  .BgColour {
+    transition: all 1s;
+    background-color: rgb(31, 31, 31 , 60%);
+  }

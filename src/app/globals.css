@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: black;
+  border-radius: 20px;
+}
+.navbar {
+  background-color: transparent;
+}
+.BgColour {
+  transition: all 1s;
+  background-color: rgba(0, 0, 0,0.3);
+  height: 80px !important;
+  margin-top: -18px !important;
+  padding-bottom: 5px;
+}
