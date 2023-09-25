@@ -8,7 +8,7 @@ export default function Home(){
     const typed = new Typed(el.current, {
       strings: ["Best Restaurant", "Delicious Specialties" ,"Nutritious & Tasty"],
       startDelay: 300,
-      typeSpeed: 1100,
+      typeSpeed: 100,
       backSpeed: 100,
       backDelay: 100,
       loop: true
