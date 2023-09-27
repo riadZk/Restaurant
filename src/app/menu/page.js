@@ -7,14 +7,14 @@ const Great = Great_Vibes({ subsets: ['latin'], weight: "400" })
 
 export default function page() {
     return (
-        <div className='h-auto w-full bg-gray-100 text-neutral-900'>
+        <div className='h-auto w-full bg-neutral-800 text-white py-5'>
             <div className='text-center'>
                 <h1 className="text-5xl text-yellow-200">
                     <span className={Great.className}>Specialties</span>
                 </h1>
-                <p className='text-white font-bold text-4xl '>Our Menu</p>
+                <p className='text-white font-bold text-4xl  pb-5'>Our Menu</p>
             </div>
-            <div className='grid grid-cols-2 mx-20 bg-white'>
+            <div className='grid grid-cols-2 mx-20 mt-4'>
                 {/* First GRID */}
                 <div className='grid grid-cols-2'>
                     <img
@@ -54,7 +54,7 @@ export default function page() {
                 </div>
             </div>
             {/* second GRID */}
-            <div className='grid grid-cols-2 mx-20 bg-white'>
+            <div className='grid grid-cols-2 mx-20'>
                 <div className='grid grid-cols-2'>
                 <div className='flex flex-col gap-5 p-3 items-start'>
                     <p className='text-ms '>Grilled Beef with potatoes</p>
@@ -93,7 +93,7 @@ export default function page() {
                 </div>
             </div>
             {/* Third GRID */}
-            <div className='grid grid-cols-2 mx-20 bg-white'>
+            <div className='grid grid-cols-2 mx-20'>
                 <div className='grid grid-cols-2'>
                     <img
                         src={'/images/pizza.jpg'}
