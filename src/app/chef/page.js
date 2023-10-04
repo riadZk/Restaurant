@@ -2,8 +2,7 @@ import React from 'react'
 import { Great_Vibes } from 'next/font/google'
 import Image from 'next/image'
 const Great = Great_Vibes({
-  subsets: ['latin'],
-  weight: '400'
+  subsets: ['latin'],weight: '400'
 })
 const page = () => {
   return (
